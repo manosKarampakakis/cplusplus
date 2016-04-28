@@ -1,15 +1,8 @@
-﻿Der Buildvorgang wurde am 26.04.2016 13:10:53 gestartet.
+﻿Der Buildvorgang wurde am 27.04.2016 15:09:35 gestartet.
      1>Projekt "C:\Users\Kicherer\Documents\Visual Studio 2015\Projects\ConsoleApplication2\Fussball\Fussball.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt CFeldSpieler.cpp CFuehrung.cpp CKader.cpp CTorwart.cpp CTrainer.cpp CVerein.cpp Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-         CVerein.cpp
-         CTrainer.cpp
-         CTorwart.cpp
-         CKader.cpp
-         CFuehrung.cpp
-         CFeldSpieler.cpp
-         Code wird generiert...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kicherer\Documents\Visual Studio 2015\Projects\ConsoleApplication2\Debug\Fussball.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Kicherer\Documents\Visual Studio 2015\Projects\ConsoleApplication2\Debug\Fussball.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kicherer\Documents\Visual Studio 2015\Projects\ConsoleApplication2\Debug\Fussball.lib" /MACHINE:X86 Debug\CFeldSpieler.obj
          Debug\CFuehrung.obj
@@ -23,4 +16,4 @@
 
 Der Buildvorgang wurde erfolgreich ausgeführt.
 
-Verstrichene Zeit 00:00:20.62
+Verstrichene Zeit 00:00:03.02

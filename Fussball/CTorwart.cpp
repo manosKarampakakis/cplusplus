@@ -21,3 +21,28 @@ void CTorwart::print()
 	cout << "Qualitaet auf der Linie: " << linienQualitaet << endl;
 	cout << "Beherrschung des Strafraums: " << abwehrKommunikation << endl;
 }
+
+void CTorwart::setStrafRaumBeherrschung(int strafRaumBeherrschung)
+{
+	this->strafRaumBeherrschung = strafRaumBeherrschung;
+}
+int CTorwart::getStrafRaumBeherrschung()
+{
+	return strafRaumBeherrschung;
+}
+void CTorwart::setLinienQualitaet(int linienQualitaet)
+{
+	this->linienQualitaet = linienQualitaet;
+}
+int CTorwart::getLinienQualitaet()
+{
+	return linienQualitaet;
+}
+void CTorwart::setAbwehrKommunikation(int abwehrKommunikation)
+{
+	this->abwehrKommunikation = abwehrKommunikation;
+}
+int CTorwart::getAbwehrKommunikation()
+{
+	return abwehrKommunikation;
+}

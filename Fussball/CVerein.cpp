@@ -2,14 +2,25 @@
 
 bool CVerein::add(const CFuehrung & arg)
 {
-	return false;
+	if(anzFuehrung < maxAnzFuehrung) {
+		//this->CVerein = CFuehrung; 
+		anzFuehrung++;
+		return true;
+	}
+	else {
+		return false;
+	}	
 }
 
 bool CVerein::add(const CKader & arg)
 {
-	return false;
+	//this->CVerein = CKader;
+	return true;
 }
 
 void CVerein::print()
 {
+	// Diese Funktion wird von Main aufgerufen
+	//CKader:print();
+	//CFuehrung:print();
 }

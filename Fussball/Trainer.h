@@ -12,4 +12,6 @@ private:
 public:
 	void print();
 	CTrainer(string name, string vorname, unsigned int alter);
+	void setLizenzStufe(int lizenzStufe);
+	int getLizenzStufe();
 };
