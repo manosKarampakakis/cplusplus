@@ -1,13 +1,15 @@
 #ifndef CKADER_CPP
 #define CKADER_CPP
 
+#include "CPerson.h"
+
 const unsigned int maxAnzKader = 50;
 
 class CKader {
 
 private:
 	unsigned int anzKader;
-	CPerson *pKaderMitglieder[maxAnzKader];
+	CPerson * pKaderMitglieder[maxAnzKader];
 
 public:
 	CKader();

@@ -26,7 +26,7 @@ unsigned int CTorwart::GetAbwehrKommunikation(){
 }
 
 void CTorwart::print() {
-	cout << "Strafraumbeherrschung: " << CTorwart::GetStrafRaumBeherrschung;
-	cout << "Linienqualität: " << CTorwart::GetLinienQualitaet;
-	cout << "Abwehrkommunikation: " << CTorwart::GetAbwehrKommunikation;
+	cout << "Strafraumbeherrschung: " << &CTorwart::GetStrafRaumBeherrschung << endl;
+	cout << "Linienqualität: " << &CTorwart::GetLinienQualitaet << endl;
+	cout << "Abwehrkommunikation: " << &CTorwart::GetAbwehrKommunikation << endl;
 }

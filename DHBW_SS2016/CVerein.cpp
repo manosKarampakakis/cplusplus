@@ -16,11 +16,11 @@ bool CVerein::add(const CKader &kader) {
 }
 
 void CVerein::print() {
-	cout << "---------------------- - ";
+	cout << "---------------------- - " << endl;
 	for (CFuehrung *f : fuehrungMitglieder){
 		f->print();
 	}
-	cout << "*****************";
+	cout << "*****************" << endl;
 	pMyKader->print();
 }
 

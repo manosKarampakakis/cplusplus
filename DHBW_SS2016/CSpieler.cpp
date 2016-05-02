@@ -13,5 +13,5 @@ unsigned int CSpieler::GetNummer(){
 }
 
 void CSpieler::print() const {
-	cout << "Position:  " << CSpieler::GetPosition << " Nummer:  " << CSpieler::GetNummer;
+	cout << "Position:  " << &CSpieler::GetPosition << " Nummer:  " << &CSpieler::GetNummer << endl;
 }

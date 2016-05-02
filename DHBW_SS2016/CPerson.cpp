@@ -17,7 +17,7 @@ unsigned int CPerson::GetAlter(){
 }
 
 void CPerson::print() const{
-	cout << "--------------------------------------------------";
-	cout << "Name:  " << CPerson::GetName << ", " << CPerson::GetVorname;
-	cout << "   Alter : " << CPerson::GetAlter;
+	cout << "--------------------------------------------------" << endl;
+	cout << "Name:  " << &CPerson::GetName << ", " << &CPerson::GetVorname << endl;
+	cout << "   Alter : " << &CPerson::GetAlter << endl;
 }

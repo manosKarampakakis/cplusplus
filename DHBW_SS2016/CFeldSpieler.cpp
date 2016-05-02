@@ -34,9 +34,9 @@ unsigned int CFeldSpieler::GetSchussgenauigkeit(){
 }
 
 void CFeldSpieler::print() {
-	cout << "StarkerFuss: " << CFeldSpieler::GetStarkerFuss;
-	cout << "verteidigung: " << CFeldSpieler::GetVerteidigung;
-	cout << "ballBeherrschung: " << CFeldSpieler::GetBallbeherrschung;
-	cout << "schussKraft: " << CFeldSpieler::GetSchussKraft;
-	cout << "schussGenauigkeit: " << CFeldSpieler::GetSchussgenauigkeit;
+	cout << "StarkerFuss: " << &CFeldSpieler::GetStarkerFuss << endl;
+	cout << "verteidigung: " << &CFeldSpieler::GetVerteidigung << endl;
+	cout << "ballBeherrschung: " << &CFeldSpieler::GetBallbeherrschung << endl;
+	cout << "schussKraft: " << &CFeldSpieler::GetSchussKraft << endl;
+	cout << "schussGenauigkeit: " << &CFeldSpieler::GetSchussgenauigkeit << endl;
 }

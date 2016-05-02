@@ -16,5 +16,5 @@ unsigned int CTrainer::GetLizenzstufe(){
 }
 
 void CTrainer::print() {
-	cout << "Lizenzstufe: " << CTrainer::GetLizenzstufe;
+	cout << "Lizenzstufe: " << &CTrainer::GetLizenzstufe << endl;
 }

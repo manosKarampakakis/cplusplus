@@ -17,5 +17,5 @@ e_aufgabe CFuehrung::GetAufgabe(){
 }
 
 void CFuehrung::print() {
-	cout << "Aufgabe:  " << CFuehrung::GetAufgabe;
+	cout << "Aufgabe:  " << &CFuehrung::GetAufgabe << endl;
 }

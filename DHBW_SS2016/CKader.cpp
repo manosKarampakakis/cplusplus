@@ -4,8 +4,6 @@
 
 using namespace std;
 
-#include "CPerson.h"
-
 //Constructor
 CKader::CKader() {
 	CPerson * pKaderMitglieder = new CPerson;
