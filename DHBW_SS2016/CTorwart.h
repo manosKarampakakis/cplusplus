@@ -1,5 +1,12 @@
+#ifndef CTORWART_CPP
+#define CTORWART_CPP
+
+#include "e_starkerFuss.h"
+#include "e_position.h"
 #include "CSpieler.h"
+
 #include <iostream>
+
 using namespace std;
 
 class CTorwart : public CSpieler {
@@ -23,6 +30,8 @@ public:
 		unsigned int nummer
 	);
 };
+
+#endif
 
 
 

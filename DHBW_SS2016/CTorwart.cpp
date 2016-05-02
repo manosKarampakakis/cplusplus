@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "CTorwart.h"
 
 #include <iostream>
@@ -6,13 +5,12 @@
 using namespace std;
 
 // Constructor
-CTorwart::CTorwart(string name, string vorname, unsigned int alter, 
-	e_position position, unsigned int nummer) {
-		this->name = name;
-		this->vorname = vorname;
-		this->alter = alter;
-		this->position = position;
-		this->nummer = nummer;
+CTorwart::CTorwart(string name, string vorname, unsigned int alter, e_position position, unsigned int nummer) {
+	name = name;
+	vorname = vorname;
+	alter = alter;
+	position = position;
+	nummer = nummer;
 }
 
 unsigned int CTorwart::GetStrafRaumBeherrschung(){
@@ -27,7 +25,7 @@ unsigned int CTorwart::GetAbwehrKommunikation(){
 	return abwehrKommunikation;
 }
 
-void print() {
+void CTorwart::print() {
 	cout << "Strafraumbeherrschung: " << CTorwart::GetStrafRaumBeherrschung;
 	cout << "Linienqualität: " << CTorwart::GetLinienQualitaet;
 	cout << "Abwehrkommunikation: " << CTorwart::GetAbwehrKommunikation;

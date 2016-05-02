@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "CSpieler.h"
 
 #include <iostream>
@@ -13,6 +12,6 @@ unsigned int CSpieler::GetNummer(){
 	return nummer;
 }
 
-void print() {
+void CSpieler::print() const {
 	cout << "Position:  " << CSpieler::GetPosition << " Nummer:  " << CSpieler::GetNummer;
 }

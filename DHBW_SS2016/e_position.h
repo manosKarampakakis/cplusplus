@@ -1,6 +1,11 @@
+#ifndef POSITION
+#define POSITION
+
 enum e_position {
 	torwart,
 	abwehr,
-	mittlefeld,
+	mittelfeld,
 	sturm
 };
+
+#endif

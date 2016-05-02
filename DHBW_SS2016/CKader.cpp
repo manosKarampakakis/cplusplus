@@ -1,19 +1,23 @@
-#include "stdafx.h"
 #include "CKader.h"
 
 #include <iostream>
 
 using namespace std;
 
-CKader::CKader() {
+#include "CPerson.h"
 
+//Constructor
+CKader::CKader() {
+	CPerson * pKaderMitglieder = new CPerson;
 }
 
 bool CKader::add(const CPerson &person) {
-
-	return false;
+	CPerson pKaderMitglieder = person;
+	return true;
 }
 
 void CKader::print() {
-
+	for (CPerson *p : pKaderMitglieder){
+		p->print();
+	}
 }

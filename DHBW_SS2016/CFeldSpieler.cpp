@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "CFeldspieler.h"
 
 #include <iostream>
@@ -6,14 +5,12 @@
 using namespace std;
 
 // Constructor
-CFeldSpieler::CFeldSpieler(string name, string vorname, unsigned int alter, 
-	e_position position, unsigned int nummer)
-{
-	this->name = name;
-	this->vorname = vorname;
-	this->alter = alter;
-	this->position = position;
-	this->nummer = nummer;
+CFeldSpieler::CFeldSpieler(string name, string vorname, unsigned int alter, e_position position, unsigned int nummer) {
+	name = name;
+	vorname = vorname;
+	alter = alter;
+	position = position;
+	nummer = nummer;
 }
 
 e_starkerFuss CFeldSpieler::GetStarkerFuss(){

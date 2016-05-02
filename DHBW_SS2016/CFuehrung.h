@@ -1,5 +1,8 @@
-#include "CPerson.h"
+#ifndef CFUEHRUNG_CPP
+#define CFUEHRUNG_CPP
+
 #include "e_aufgabe.h"
+#include "CPerson.h"
 
 #include <iostream>
 
@@ -16,3 +19,5 @@ public:
 
 	CFuehrung(string name, string vorname, unsigned int alter, e_aufgabe aufgabe);
 };
+
+#endif
