@@ -1,3 +1,10 @@
+#ifndef CPERSON_CPP
+#define CPERSON_CPP
+
+#include <iostream>
+
+using namespace std;
+
 class CPerson {
 
 protected:
@@ -9,5 +16,7 @@ public:
 	string GetName();
 	string GetVorname();
 	unsigned int GetAlter();
-	virtual void print() const = 0;
+	virtual void print() const;
 };
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef CSPIELER_CPP
+#define CSPIELER_CPP
+
 #include "CPerson.h"
 #include "e_position.h"
 
@@ -10,5 +13,7 @@ protected:
 public:
 	e_position GetPosition();
 	unsigned int GetNummer();
-	void print();
+	virtual void print() const;
 };
+
+#endif

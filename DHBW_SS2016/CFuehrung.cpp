@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "CFuehrung.h"
 
 #include <iostream>
@@ -17,6 +16,6 @@ e_aufgabe CFuehrung::GetAufgabe(){
 	return aufgabe;
 }
 
-void print() {
-	cout << "Aufgabe:  " << CFuehrung::GetAufgabe;
+void CFuehrung::print() {
+	cout << "Aufgabe:  " << &CFuehrung::GetAufgabe << endl;
 }

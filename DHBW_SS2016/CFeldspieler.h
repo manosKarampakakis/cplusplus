@@ -1,5 +1,10 @@
-#include "CSpieler.h"
+#ifndef CFELDSPIELER_CPP
+#define CFELDSPIELER_CPP
+
 #include "e_starkerFuss.h"
+#include "e_position.h"
+
+#include "CSpieler.h"
 
 #include <iostream>
 
@@ -30,4 +35,6 @@ public:
 		unsigned int nummer
 	);
 };
+
+#endif
 

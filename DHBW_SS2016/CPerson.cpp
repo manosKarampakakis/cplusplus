@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "CPerson.h"
 
 #include <iostream>
@@ -17,8 +16,8 @@ unsigned int CPerson::GetAlter(){
 	return alter;
 }
 
-void print() {
-	cout << "--------------------------------------------------";
-	cout << "Name:  " << CPerson::GetName << ", " << CPerson::GetVorname;
-	cout << "   Alter : " << CPerson::GetAlter;
+void CPerson::print() const{
+	cout << "--------------------------------------------------" << endl;
+	cout << "Name:  " << &CPerson::GetName << ", " << &CPerson::GetVorname << endl;
+	cout << "   Alter : " << &CPerson::GetAlter << endl;
 }

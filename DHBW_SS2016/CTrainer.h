@@ -1,4 +1,8 @@
+#ifndef CTRAINER_CPP
+#define CTRAINER_CPP
+
 #include "CPerson.h"
+
 #include <iostream>
 
 using namespace std;
@@ -14,3 +18,5 @@ public:
 
 	CTrainer (string name, string vorname, unsigned int alter);
 };
+
+#endif
