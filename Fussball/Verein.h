@@ -9,7 +9,7 @@ class CVerein
 {
 private:
 	CKader* pMyKader;
-	unsigned int anzFuehrung;
+	unsigned int anzFuehrung = 0;
 	CFuehrung* fuehrungMitgleider[maxAnzFuehrung];
 
 public:

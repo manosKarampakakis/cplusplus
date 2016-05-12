@@ -13,4 +13,10 @@ private:
 public:
 	void print();
 	CTorwart(string name, string vorname, unsigned int alter, e_position position, unsigned int nummer);
+	void setStrafRaumBeherrschung(int strafRaumBeherrschung);
+	int getStrafRaumBeherrschung();
+	void setLinienQualitaet(int linienQualitaet);
+	int getLinienQualitaet();
+	void setAbwehrKommunikation(int abwehrKommunikation);
+	int getAbwehrKommunikation();
 };

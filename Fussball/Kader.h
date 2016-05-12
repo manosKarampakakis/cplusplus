@@ -6,7 +6,7 @@ const unsigned int maxAnzKader = 50;
 class CKader
 {
 private:
-	unsigned int anzKader;
+	unsigned int anzKader = 0;
 	CPerson* pKaderMitgleider[maxAnzKader];
 
 public:

@@ -16,3 +16,13 @@ void CTrainer::print()
 	cout << "Alter: " << alter << endl;
 	cout << "Lizenzstufe: " << lizenzStufe << endl;
 }
+
+void CTrainer::setLizenzStufe(int lizenzStufe)
+{
+	this->lizenzStufe = lizenzStufe;
+}
+int CTrainer::getLizenzStufe()
+{
+	return lizenzStufe;
+}
+

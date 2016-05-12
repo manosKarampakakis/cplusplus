@@ -1,22 +1,26 @@
 #include "Kader.h"
 #include "Torwart.h"
 #include "FeldSpieler.h"
+#include "Trainer.h"
 
 CKader::CKader()
 {
-	CTorwart;
-	CFeldSpieler;
+	//Konstruktor
 }
 
 bool CKader::add(const CPerson & arg)
 {
-
-	return false;
+	if (anzKader < maxAnzKader) {
+		//this->CKader = CPerson;
+		anzKader++;
+		return true;
+	}
+	else {
+		return false;
+	}	
 }
 
 void CKader::print()
 {
-	CTorwart:print();
-	CFeldSpieler:print();
-
+	
 }

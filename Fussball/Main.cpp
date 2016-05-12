@@ -4,6 +4,8 @@
 #include "Torwart.h"
 #include "Trainer.h"
 #include "Spieler.h"
+#include <iostream>
+using namespace std;
 
 int main() {
 
@@ -111,6 +113,16 @@ int main() {
 
 	CFuehrung * heldt = new CFuehrung("Heldt", "Horst", 38, sportdirektor);
 	vfbStuttgart->add(*heldt);  pPersonenListe[idx++] = heldt;
+
+	// Qualifizierende Attribute
+
+	string erg;
+
+	cout << "Moechten Sie die Qualifizierung des Kaders aendern? (J/N): ";
+	cin >> erg;
+	if (erg == "J") {
+		cout << "Super!" << endl;
+	}
 
 	// Ausgabe des Vereins
 

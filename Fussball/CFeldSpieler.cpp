@@ -11,7 +11,6 @@ CFeldSpieler::CFeldSpieler(string name, string vorname, unsigned int alter, e_po
 	this->nummer = nummer;
 }
 
-
 void CFeldSpieler::print()
 {
 	cout << "---------------------------------------------------" << endl;
@@ -23,5 +22,46 @@ void CFeldSpieler::print()
 	cout << "Schussgenauigkeit: " << schussKraft << endl;
 	cout << "Schusskraft: " << schussGenauigkeit << endl;
 	cout << "Verteidigung: " << verteidigung << endl;
+}
+
+void CFeldSpieler::setStarkerFuss(e_starkerFuss starkerFuss)
+{
+	this->starkerFuss = starkerFuss;
+}
+e_starkerFuss CFeldSpieler::getStarkerFuss()
+{
+	return starkerFuss;
+}
+void CFeldSpieler::setVerteidigung(int verteidigung)
+{
+	this->verteidigung = verteidigung;
+}
+int CFeldSpieler::getVerteidigung()
+{
+	return verteidigung;
+}
+void CFeldSpieler::setBallBeherrschung(int ballBeherrschung)
+{
+	this->ballBeherrschung = ballBeherrschung;
+}
+int CFeldSpieler::getBallBeherrschung()
+{
+	return ballBeherrschung;
+}
+void CFeldSpieler::setSchussKraft(int schussKraft)
+{
+	this->schussKraft = schussKraft;
+}
+int CFeldSpieler::getSchussKraft()
+{
+	return schussKraft;
+}
+void CFeldSpieler::setSchussGenauigkeit(int schussGenauigkeit)
+{
+	this->schussGenauigkeit = schussGenauigkeit;
+}
+int CFeldSpieler::getSchussGenauigkeit()
+{
+	return schussGenauigkeit;
 }
 
