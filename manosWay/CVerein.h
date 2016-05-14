@@ -12,6 +12,8 @@
 #include "CKader.h"
 #include "CFuehrung.h"
 
+const unsigned int maxAnzFuehrung = 20;
+
 namespace std {
 
 class CVerein {
@@ -20,7 +22,7 @@ public:
 	virtual ~CVerein();
 	CKader* pMyKader;
 	unsigned int anzFuehrung;
-	CFuehrung* FuehrungsMittglieder[20];
+	CFuehrung* FuehrungsMittglieder[maxAnzFuehrung];
 	bool add(const CFuehrung &fuerhung);
 	bool add(const CKader &kader);
 	void print();
