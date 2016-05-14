@@ -18,8 +18,8 @@ using namespace std;
 int main()
 {
 
-	CPerson * pPersonenListe[20 + 30];
-	for (unsigned int i=0; i<20 + 30; i++)
+	CPerson * pPersonenListe[maxAnzKader + maxAnzFuehrung];
+	for (unsigned int i=0; i<maxAnzKader + maxAnzFuehrung; i++)
 		pPersonenListe[i] = 0x0;
 
 	unsigned int idx = 0;
@@ -127,7 +127,7 @@ int main()
 
 	vfbStuttgart->print();
 
-	for (int i=0; i<20 + 30; i++)
+	for (int i=0; i<maxAnzKader + maxAnzFuehrung; i++)
 		if (pPersonenListe[i] != 0x0)
 			delete pPersonenListe[i];
 
@@ -135,7 +135,7 @@ int main()
 	delete vfbStuttgart;
 
 
-	pPersonenListe[1]->print();
+	//pPersonenListe[1]->print();
 
 	system("pause");
 
