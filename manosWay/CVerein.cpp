@@ -21,12 +21,12 @@ CVerein::~CVerein() {
 	// TODO Auto-generated destructor stub
 }
 
-bool CVerein::add(CKader &kader){
+bool CVerein::add(const CKader &kader){
 	pMyKader = &kader;
 	return true;
 }
 
-bool CVerein::add(CFuehrung &fuehrung){
+bool CVerein::add(const CFuehrung &fuehrung){
 	if(anzFuehrung < maxAnzFuehrung) {
 		FuehrungsMittglieder[anzFuehrung] = &fuehrung;
 		anzFuehrung++;
