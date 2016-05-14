@@ -27,9 +27,14 @@ bool CVerein::add(CKader &kader){
 }
 
 bool CVerein::add(CFuehrung &fuehrung){
-	FuehrungsMittglieder[anzFuehrung] = &fuehrung;
-	anzFuehrung++;
-	return true;
+	if(anzFuehrung < maxAnzFuehrung) {
+		FuehrungsMittglieder[anzFuehrung] = &fuehrung;
+		anzFuehrung++;
+		return true;
+	}
+	else {
+		return false;
+	}	
 }
 
 void CVerein::print(){
