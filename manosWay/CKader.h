@@ -17,7 +17,7 @@ public:
 	virtual ~CKader();
 	unsigned int anzKader;
 	CPerson * pKaderMitglieder[30];
-	bool add(CPerson &person);
+	bool add(const CPerson &person);
 	void print();
 };
 
