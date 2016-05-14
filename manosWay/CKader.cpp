@@ -19,10 +19,9 @@ CKader::~CKader() {
 	// TODO Auto-generated destructor stub
 }
 
-bool CKader::add(CPerson &person){
+bool CKader::add(const CPerson &person){
 	if (anzKader < maxAnzKader) {
 	 	pKaderMitglieder[anzKader]= &person;
-	 	//pKaderMitglieder[anzKader]->print();
 	 	anzKader++;
 	 	return true;
 	}
