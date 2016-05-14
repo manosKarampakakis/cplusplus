@@ -21,8 +21,8 @@ public:
 	CKader* pMyKader;
 	unsigned int anzFuehrung;
 	CFuehrung* FuehrungsMittglieder[20];
-	bool add(CFuehrung &fuerhung);
-	bool add(CKader &kader);
+	bool add(const CFuehrung &fuerhung);
+	bool add(const CKader &kader);
 	void print();
 };
 
