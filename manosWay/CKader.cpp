@@ -20,10 +20,15 @@ CKader::~CKader() {
 }
 
 bool CKader::add(CPerson &person){
-	 pKaderMitglieder[anzKader]= &person;
-	 //pKaderMitglieder[anzKader]->print();
-	 anzKader++;
-	 return true;
+	if (anzKader < maxAnzKader) {
+	 	pKaderMitglieder[anzKader]= &person;
+	 	//pKaderMitglieder[anzKader]->print();
+	 	anzKader++;
+	 	return true;
+	}
+	else {
+		return false;
+	}
 }
 
 void CKader::print(){
