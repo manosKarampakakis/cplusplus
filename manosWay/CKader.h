@@ -9,6 +9,8 @@
 #define CKADER_H_
 #include "CPerson.h"
 
+const unsigned int maxAnzKader = 50;
+
 namespace std {
 
 class CKader {
@@ -16,7 +18,7 @@ public:
 	CKader();
 	virtual ~CKader();
 	unsigned int anzKader;
-	CPerson * pKaderMitglieder[30];
+	CPerson * pKaderMitglieder[maxAnzKader];
 	bool add(const CPerson &person);
 	void print();
 };
